@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ i{
+font-size: 50px;
+}
+.section{
+    position: relative;
+    
+   
+}
+#right{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+#left{
+   
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        transform: translateY(-50%);
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+.section span{
+    font-size: 60px;
+    margin-right: 10px;
+   
+}
+.section span:hover{
+transform: scale(1.1);
+    color: crimson;
+}
+.span-block{
+    display: flex;
+    justify-content: center;
+    
+}
